@@ -26,7 +26,7 @@ Programming Experience:
 What is one part or element of programming that you would like to improve or grow in this year?
 
 
-_____________________________________________________________________________________
+
 
 
 What is one part of programming or this class that you feel like challenges you more than others?
