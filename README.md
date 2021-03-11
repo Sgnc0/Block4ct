@@ -19,24 +19,20 @@ Programming Experience:
 
 
 10th Grade Year: In 2-5 sentences, describe each of the programming projects you’ve completed this year.  Think back to Block 1, Block 2/3, and your Passion Project (if that applies).
-
-
+ When i got back into coding classes I wasnt all that sure about it. I hadn't really remembered it so i had to jog my memory in order to get the definitions to some of the words. I had trouble really getting the grove for the first bolck i had it again, especially with the passion project and such.
 
 
 What is one part or element of programming that you would like to improve or grow in this year?
 
-
+ Just remembering definitions and being able to use them correctly.
 
 
 
 What is one part of programming or this class that you feel like challenges you more than others?
 
-
-_____________________________________________________________________________________
+ Coding really gets my head jumbled up, it's complex for me.
 
 
 What is your “goal” with computer programming or Computational Thinking?  This answer can be focused on your time at school, or it could describe how you want to experience college or your future career.
 
-
-_____________________________________________________________________________________
-_____________________________________________________________________________________
+ Being abe to spend more time on it would really help a lot.
