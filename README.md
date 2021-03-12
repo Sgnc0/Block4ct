@@ -36,3 +36,45 @@ What is one part of programming or this class that you feel like challenges you 
 What is your “goal” with computer programming or Computational Thinking?  This answer can be focused on your time at school, or it could describe how you want to experience college or your future career.
 
  Being abe to spend more time on it would really help a lot.
+ 
+ import random
+
+myList = []
+
+def mainProgram():
+#build our while loop
+    while True:
+    print("Hello, there! Let's work with lists")
+    print("Please choose from the following options. Type the number of the choice")
+    choice = input("""1. Add to a list,
+2. Return a value in a list,
+3. Random Search
+4. to quit   """)
+    if choice == "1":
+        AddToList()
+    elif choice == "2":
+        indexValues()
+    elif choice == "3":
+        randomSerach:
+        else:
+            break
+        
+def AddToList():
+    print("adding to a list! Great choice!")
+    newitem = input("Type an integer here!")
+    myList.append(int(newitem))
+    #we need to think about errors!
+
+def randomSearch():
+    print("Oh I'm so random")
+    print(myList[random.randit(0, len(myList)-1)])
+
+def indexvalues():
+    print("At what index positoin do you want to search?")
+    indexPos = input("Type an index position here:   ")
+    print(myList[int(indexPos)])
+
+if __name__ == "__main__":
+    mainProgram()
+
+
