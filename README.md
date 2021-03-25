@@ -37,9 +37,11 @@ What is your “goal” with computer programming or Computational Thinking?  Th
 
  Being abe to spend more time on it would really help a lot.
  
- import random
+import random
 
 myList = []
+
+unique_List = []
 
 def mainProgram():
 #build our while loop
@@ -55,7 +57,13 @@ def mainProgram():
     elif choice == "2":
         indexValues()
     elif choice == "3":
-        randomSerach:
+        addABunch()
+    elif choice == "4":
+        randomSearch()
+    elif choice == "5":
+        LinearsSearch()
+    elif choice == "6":
+        sortlist(myList)
         else:
             break
         
@@ -65,9 +73,27 @@ def AddToList():
     myList.append(int(newitem))
     #we need to think about errors!
 
+def sortList(myList):
+    #"myList" is the ARGUMENT this function takes.
+    for x in myList:
+        if x not in unique_list:
+            unique_list.append(x)
+    unique_List.sort()
+    showMe = input("Wanna see your new, sorted list? Y/N")
+    if showMe.lower() == "y":
+        print(unique_List)
+
 def randomSearch():
     print("Oh I'm so random")
     print(myList[random.randit(0, len(myList)-1)])
+
+def printlist():
+    if len(unique_myList) == 0:
+        print(myList)
+    else:
+        whichOne = input("Which list do you want to see? sorted or un-sorted? ")
+        if whichOne.lower() =="sorted":
+            print(unique_list)
 
 def indexvalues():
     print("At what index positoin do you want to search?")
@@ -76,5 +102,6 @@ def indexvalues():
 
 if __name__ == "__main__":
     mainProgram()
+
 
 
