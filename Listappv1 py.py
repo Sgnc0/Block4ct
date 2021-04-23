@@ -35,15 +35,15 @@ def mainProgram():
 7. print list
 8. Recursive Binary Search
 9. Iterative Binary Search
-10. to quit   """)
-
+10. Big brain 
+11. to quit   """)
 
         if choice == "1":
             addToList()
         elif choice == "2":
             indexValues()
         elif choice == "3":
-            addabunch()
+            addABunch()
         elif choice == "4":
             randomSearch()
         elif choice == "5":
@@ -58,8 +58,12 @@ def mainProgram():
         elif choice == "9":
             searchItem = input("What are you looking for   ")
             iterativeBinarySearch(unique_list, 0, len(unique_list)-1, int(searchItem))
+        elif choice == "10":
+            searchItem = input("Return to monke?   ")
+            iterativeBinarySearch(unique_list, 0, len(unique_list)-1, int(searchItem))
+  
             
-        
+  
             
             #this will print the list we made, it's actually pretty simple, if you type 6 in the shell you will get the data in your list.
         else:
@@ -78,6 +82,7 @@ def addToList():
     #Append here is used to create, some of this code might seem complicated but it's more like steps we the code will do for us, for example mylist.append will
     #create a data set into(newItem) the int at the start will convert the integer into data set that will fit MyList. 
     #we need to think about errors!
+
 
 def addabunch():#the name of our function
     print("we're going to add a bunch of numbers to your list")
